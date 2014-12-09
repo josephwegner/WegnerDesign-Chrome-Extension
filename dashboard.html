@@ -1,0 +1,134 @@
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/global.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/dashboard.css" />
+    <script src="/javascripts/jquery.min.js"></script>
+    <script src="https://use.edgefonts.net/andika.js"></script>
+    <script src="/javascripts/keen.js"></script>
+    <script type="text/javascript" src="/javascripts/dashboard.js"></script>
+    <title>WegnerDesign Analytics</title>
+  </head>
+
+  <body>
+    <nav id="header" class="navbar navbar-default navbar-fixed-top">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href-"/"class="navbar-brand"><svg  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewbox="0 0 600 600">
+  <path d="M50,50 L50,330 A70,85 0 1,0 300,330 L300,50" style="stroke: #dd524b; stroke-opacity: .6; fill: transparent; stroke-width: 100;">
+        <animate id="first1" attributeName="stroke"
+            from="#dd524b" to="#ddcb76"
+            begin="13s; sixth1.end+10s" dur="5s"
+            fill="freeze" />
+        <animate id="second1" attributeName="stroke"
+            from="#ddcb76" to="#92c5dd"
+            begin="first2.end+10s" dur="5s"
+            fill="freeze" />
+        <animate id="third1" attributeName="stroke"
+            from="#92c5dd" to="#dd6b93"
+            begin="second1.end+10s" dur="5s"
+            fill="freeze" />
+        <animate id="fourth1" attributeName="stroke"
+            from="#dd6b93" to="#69dd93"
+            begin="third1.end+10s" dur="5s"
+            fill="freeze" />
+        <animate id="fifth1" attributeName="stroke"
+            from="#69dd93" to="#cb86dd"
+            begin="fourth1.end+10s" dur="5s"
+            fill="freeze" />
+        <animate id="sixth1" attributeName="stroke"
+            from="#cb86dd" to="#dd524b"
+            begin="fifth1.end+10s" dur="5s"
+            fill="freeze" />
+  </path>
+  <path d="M550,50 L550,330 A70,85 0 0,1 300,330" style="stroke: #dd524b; stroke-opacity: .6; fill: transparent; stroke-width: 100; mask: url(#pfirst-u-mask)">
+        <animate id="first2" attributeName="stroke"
+            from="#dd524b" to="#ddcb76"
+            begin="13s; sixth2.end+10s" dur="5s"
+            fill="freeze" />
+        <animate id="second2" attributeName="stroke"
+            from="#ddcb76" to="#92c5dd"
+            begin="first2.end+10s" dur="5s"
+            fill="freeze" />
+        <animate id="third2" attributeName="stroke"
+            from="#92c5dd" to="#dd6b93"
+            begin="second2.end+10s" dur="5s"
+            fill="freeze" />
+        <animate id="fourth2" attributeName="stroke"
+            from="#dd6b93" to="#69dd93"
+            begin="third2.end+10s" dur="5s"
+            fill="freeze" />
+        <animate id="fifth2" attributeName="stroke"
+            from="#69dd93" to="#cb86dd"
+            begin="fourth2.end+10s" dur="5s"
+            fill="freeze" />
+        <animate id="sixth2" attributeName="stroke"
+            from="#cb86dd" to="#dd524b"
+            begin="fifth2.end+10s" dur="5s"
+            fill="freeze" />
+  </path>
+  <path d="M300,50 L300,330 A70,85 0 0,1 50,330" style="stroke: #dd524b; stroke-opacity: .5; fill: transparent; stroke-width: 100;">
+        <animate id="first3" attributeName="stroke"
+            from="#dd524b" to="#ddcb76"
+            begin="10s; sixth3.end+10s" dur="5s"
+            fill="freeze" />
+        <animate id="second3" attributeName="stroke"
+            from="#ddcb76" to="#92c5dd"
+            begin="first3.end+10s" dur="5s"
+            fill="freeze" />
+        <animate id="third3" attributeName="stroke"
+            from="#92c5dd" to="#dd6b93"
+            begin="second3.end+10s" dur="5s"
+            fill="freeze" />
+        <animate id="fourth3" attributeName="stroke"
+            from="#dd6b93" to="#69dd93"
+            begin="third3.end+10s" dur="5s"
+            fill="freeze" />
+        <animate id="fifth3" attributeName="stroke"
+            from="#69dd93" to="#cb86dd"
+            begin="fourth3.end+10s" dur="5s"
+            fill="freeze" />
+        <animate id="sixth3" attributeName="stroke"
+            from="#cb86dd" to="#dd524b"
+            begin="fifth3.end+10s" dur="5s"
+            fill="freeze" />
+  </path>
+
+  <mask id="pfirst-u-mask" x="0" y="0" height="2" width="2">
+      <path d="M550,50 L550,330 A70,85 0 0,1 300,330" style="stroke: #ffffff; stroke-width: 100;" />
+      <path d="M50,50 L50,330 A70,85 0 1,0 300,330 L300,50" style="stroke: #000000; stroke-width: 100;" />
+  </mask>
+</svg><h1>Joe Wegner</h1></a>
+    </nav>
+    <div id="dashboard-wrapper">
+      <div id="total-traffic-series"></div>
+      <div id="visitor-type"></div>
+      <ul id="popular-blog-list">
+        <li class="list-header">Popular Blog Posts <span class="num-header">Finish Rate</span></li> 
+      </ul>
+      <div id="twitter-clicks">
+        <div class="twitter-stats">
+          <h4>Twitter Link</h4>
+          <p class="twitter-views-num"></p>
+          <p class="twitter-hovers-num"></p>
+          <p class="twitter-clicks-num"></p>
+        </div>
+        <div id="twitter-hovers"></div>
+        <div id="total-twitter-views"></div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+     <script type="text/javascript" src="/javascripts/bootstrap.min.js"></script>
+  </body>
+</html>
